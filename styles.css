@@ -1,14 +1,24 @@
 h1{
     color:e09160;
-    font-size:1000px;
+    font-size:large;    
 }       
 .navbar{
-    width: 25%;
+    width: 20%;
     height: 100%;
     background: #3e5966;
     position:absolute;
     left: 0%;
     top: 0%;
+    
+}
+.banner {
+margin-left:50%;
+}
+
+.page{
+    margin-left:20%;
+    text-align: center;
+    width: 80%;
     
 }
 
