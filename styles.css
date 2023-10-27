@@ -22,12 +22,7 @@ margin-left:50%;
     
 }
 
-img {
-    max-width: 50%;
-    max-height: 50%;
-    display: flex;
-    justify-content: center;
-}
+
 .navbar__item{
     list-style-type:none;
 }
