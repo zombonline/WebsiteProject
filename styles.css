@@ -49,3 +49,18 @@ a:hover{
     text-decoration: none;
     color:blue;
 }
+
+
+
+
+
+
+/* ALL GAMES CSS */
+
+.Games_AZ{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left:20%;
+    line-height: 2000%;
+}
