@@ -21,6 +21,17 @@ margin-left:50%;
     width: 80%;
     
 }
+.page__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.page__right {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+ 
 
 
 .navbar__item{
@@ -36,5 +47,5 @@ a:visited{
 }
 a:hover{
     text-decoration: none;
-    color:white;
+    color:blue;
 }
