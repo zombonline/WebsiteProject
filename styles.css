@@ -31,7 +31,55 @@ margin-left:50%;
     justify-content: left;
     align-items: center;
 }
+ h1{
+    color:e09160;
+    font-size:large;    
+}       
+.navbar{
+    width: 20%;
+    height: 100%;
+    background: #3e5966;
+    position:absolute;
+    left: 0%;
+    top: 0%;
+    
+}
+.banner {
+margin-left:50%;
+}
+
+.page{
+    margin-left:20%;
+    text-align: center;
+    width: 80%;
+    
+}
+.page__left {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.game__thumbnail{
+    justify-content: left;
+    text-wrap:nowrap;
+}
  
+.navbar__item{
+    list-style-type:none;
+}
+a:active{
+    text-decoration: none;
+    color:#e09160;
+}
+a:visited{
+    text-decoration: none;
+    color:#e09160;
+}
+a:hover{
+    text-decoration: none;
+    color:blue;
+}
+
 
 
 .navbar__item{
@@ -64,3 +112,4 @@ a:hover{
     margin-left:20%;
     line-height: 2000%;
 }
+
