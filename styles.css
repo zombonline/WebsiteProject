@@ -110,6 +110,37 @@ a:hover{
     justify-content: left;
     align-items: center;
     margin-left:20%;
-    line-height: 2000%;
+    line-height: 1400%;
+    z-index: 100;
+}
+
+.image_AZ {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left:25%;
+    z-index: 100;
+    
+
+}
+
+.cover_AZ{
+    justify-content: left;
+    text-wrap:nowrap;
+    z-index: 100;
+    
+}
+
+.a_z_list{
+    margin-left:20%;
+    text-align: center;
+    width: 80%;
+    position: fixed;
+    z-index: 1000;
+    text-decoration: #e09160;
+    background-color: #3e5966;
+    height: 40px;
+    font-size: xx-large;
+
 }
 
