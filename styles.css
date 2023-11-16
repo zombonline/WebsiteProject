@@ -42,6 +42,7 @@ margin-left:50%;
     position:fixed;
     left: 0%;
     top: 0%;
+    font-family:Blippo, fantasy;
     
 }
 .banner {
@@ -113,7 +114,7 @@ a:hover{
     margin-left:20%;
     line-height: 1400%;
     z-index: 100;
-    font-family: Dedicool;
+    
 }
 
 .image_AZ {
@@ -122,7 +123,7 @@ a:hover{
     align-items: center;
     margin-left:25%;
     z-index: 100;
-    
+    font-family:Blippo, fantasy;
 
 }
 
@@ -130,6 +131,7 @@ a:hover{
     justify-content: left;
     text-wrap:nowrap;
     z-index: 100;
+    font-family:Blippo, fantasy;
     
 }
 
@@ -143,6 +145,7 @@ a:hover{
     background-color: #3e5966;
     height: 40px;
     font-size: xx-large;
+    font-family:Blippo, fantasy;
 
 }
 
@@ -154,6 +157,7 @@ a:hover{
     left: 38%;
     z-index: 1000;
     width: 650px;
+    font-family:Blippo, fantasy;
 }
 
 .news_list{
@@ -166,6 +170,7 @@ a:hover{
     left: 10%;
     width: 60%;
     height: 50%;
+    font-family:Blippo, fantasy;
 
 
 }
@@ -182,11 +187,10 @@ a:hover{
     font-size: medium;
     line-height: 1;
     padding: auto;
+    font-family:Blippo, fantasy;
 
 
 }
-
-
 
 .news_art{
     margin-left:20%;
@@ -195,6 +199,8 @@ a:hover{
     font-size: xx-large;
     top: 120%;
     line-height: 100%;
+    font-family:Blippo, fantasy;
 
 }
 
+/* end of ryans pages */
