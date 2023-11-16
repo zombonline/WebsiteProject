@@ -110,6 +110,12 @@ a:hover{
 
 /* ALL GAMES CSS */
 
+.art_header{
+    text-align: center;
+    margin-left:20%;
+}
+    
+
 
 .Games_AZ{
     display: flex;
