@@ -1,3 +1,8 @@
+
+html{
+    color-scheme: dark light;
+}
+
 .page__right {
     display: flex;
     justify-content: left;
@@ -194,3 +199,116 @@ a:hover{
 }
 
 /* end of ryans pages */
+
+
+/* PERSONA ! */
+
+
+.P5 {
+    position: relative;
+    min-height: 56vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    margin-left: 20%;
+    margin-right: 5%;
+    margin-top: 20px;
+    
+}
+.header-content{
+    position: relative;
+    height: 420px;
+    text-align: center;
+}
+.header-item {
+    position: relative;
+    height: 920px;
+    text-align: center;
+}
+
+
+    .header-item-text{
+        font-style: oblique;
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-top: 30px;
+        border-radius: 20px;
+        min-height: 100px;
+        background-image:
+            linear-gradient(
+                55deg,
+                rgb(127, 207, 228),
+                #d57eda,
+                rgb(189, 140, 76)
+            );
+    }
+        .header-item-text .text{
+            position: relative;
+            width:50%;
+            margin-left: 22px;
+           
+        }
+
+         .h2 {
+            font-size: 36px;
+            font-weight: 300;
+            position: absolute;
+
+         } 
+
+        
+        
+            
+            .text{
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                font-size: 16px;
+                color: #050505;
+                flex-direction: column;
+                font-weight: 300;
+                margin-top: 30px;
+             
+
+            }
+
+            .text h3{
+                position: absolute;
+                letter-spacing: 2px;
+                align-content: center;
+                flex-direction: column;
+            }
+            
+
+            .text p{
+                color: #0a0a0a;
+                font-size: 16px;
+                position: absolute;
+                margin-left: 150px ;
+                align-content: flex-start;
+                flex-direction: column;
+                
+
+            }
+            
+
+            .icon{
+                position: absolute;
+                background: #fff;
+                border-radius: 50%;
+                font-size: 22px;
+                margin-left: 250px;
+                letter-spacing: -5px;
+                align-content: flex-start;
+                flex-direction: column;
+                margin-top: 12px;
+            }
+          
+            
+            
+
+
+
+
