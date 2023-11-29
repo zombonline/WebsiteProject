@@ -5,60 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pixel Post</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+    </script>
 </head>
 <body>
     <section> <!-- Navbar -->
-        <nav class="navbar">
-            <div class="navbar__container">
-                <a href="/index.html" id="navbar__logo"><img src="images/pixel post logo.png" width="100%" alt=""></a>
-                <ul class = "navbar__menu">
-                    <li class = "navbar__item">
-                        <a href="/index.html" class="navbar__links">
-                            HOME
-                        </a>
-                    </li>
-                    <li class = "navbar__item">
-                        <a href="/allgames.html" class="navbar__links">
-                            GAMES
-                        </a>
-                    </li>
-                    <li class = "navbar__item">
-                        <a href="/news.html" class="navbar__links">
-                            NEWS
-                        </a>
-                    </li>
-                    <li class = "navbar__item">
-                        <a href="/team.html" class="navbar__links">
-                            TEAM
-                        </a>
-                    </li>
-                    <br>
-                    <li class = "navbar__item">
-                        <a href="/profile.html" class="navbar__links">
-                            <img src="images/profile.jpg" width="25%" alt="">
-                        </a>
-                    </li>
-                    <br>
-                    <li class = "navbar__item">
-                        <button>Log in</button> 
-                    </li>
-                    <li class = "navbar__item">
-                        <button>Sign up</button> 
-                    </li>
-                    <li class = "navbar__item">
-                        <button>Dark mode</button> 
-                    </li>
-                    <li class = "navbar__item">
-                        <h5>Try the new Caloop Demo free!</h5>
-                        <a href="/caloopdemo.html" class="navbar__links">
-                            <img src="images/caloopdemoplay.png" width="50%%" alt="">
-                        </a>
-                    </li>
-
-                </ul>
-            </div>
-        </nav>
+        <div id="navbar"></div>
     </section>
+    
 
 
     <nav class="page">

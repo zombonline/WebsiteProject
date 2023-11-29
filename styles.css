@@ -13,7 +13,7 @@ html{
     font-size:large;    
 }       
 .navbar{
-    width: 15%;
+    width: 200px;
     height: 100%;
     background: #3e5966;
     position:fixed;
@@ -27,7 +27,7 @@ margin-left:50%;
 }
 
 .page{
-    margin-left:15%;
+    margin-left:200px;
     text-align: center;
     width: 80%;
     
@@ -51,6 +51,7 @@ margin-left:50%;
  
 .navbar__item{
     list-style-type:none;
+
 }
 a:active{
     text-decoration: none;
@@ -71,9 +72,7 @@ a:link
 
 
 
-.navbar__item{
-    list-style-type:none;
-}
+
 a:active{
     text-decoration: none;
     color:#e09160;
