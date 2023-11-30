@@ -1,6 +1,6 @@
 
 html{
-    color-scheme: dark light;
+    
 }
 
 .page__right {
@@ -129,9 +129,9 @@ a:hover{
 }
 
 .a_z_list{
-    margin-left:20%;
+    margin-left:30%;
     text-align: center;
-    width: 80%;
+    width: 60%;
     position: fixed;
     z-index: 1000;
     text-decoration: #e09160;
@@ -139,6 +139,7 @@ a:hover{
     height: 40px;
     font-size: xx-large;
     font-family:Blippo, fantasy;
+    
 
 }
 
