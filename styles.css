@@ -161,16 +161,19 @@ a:hover{
 }
 
 .news_list{
-    margin-left:20%;
-    position: absolute;
-    text-decoration: #e09160;
+    position: relative;
+    top: 500px;
+    width: 65%;
+    height: 60%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #3e5966;
-    font-size: xx-large;
-    top: 70%;
-    left: 10%;
-    width: 60%;
-    height: 50%;
+    flex-direction: column;
+    padding: 40px;
     font-family:Blippo, fantasy;
+   
 
 
 }
@@ -185,8 +188,8 @@ a:hover{
     height: 40%;
     position: absolute;
     font-size: medium;
-    line-height: 1;
-    padding: auto;
+    line-height: 1.5;
+    padding: 40px 0px;
     font-family:Blippo, fantasy;
 
 
