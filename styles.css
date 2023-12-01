@@ -3,6 +3,7 @@ html{color-scheme: dark light;
     
     
 }
+/*old blue = #3e5966 */
 
 .page__right {
     display: flex;
@@ -16,7 +17,7 @@ html{color-scheme: dark light;
 .navbar{
     width: 200px;
     height: 100%;
-    background: #3e5966;
+    background: #E1E2E2;
     position:fixed;
     left: 0%;
     top: 0%;
@@ -55,15 +56,16 @@ margin-left:50%;
  
 .navbar__item{
     list-style-type:none;
+    color:#FB8122;
 
 }
 a:active{
     text-decoration: none;
-    color:#e09160;
+    color:#FB8122;
 }
 a:visited{
     text-decoration: none;
-    color:#e09160;
+    color:#FB8122;
 }
 a:hover{
     text-decoration: none;
@@ -79,11 +81,11 @@ a:link
 
 a:active{
     text-decoration: none;
-    color:#e09160;
+    color:#FB8122;
 }
 a:visited{
     text-decoration: none;
-    color:#e09160;
+    color:#FB8122;
 }
 a:hover{
     text-decoration: none;
@@ -139,7 +141,7 @@ a:hover{
     position: fixed;
     z-index: 1000;
     text-decoration: #e09160;
-    background-color: rgba(62, 89, 102, 0.749);
+    background-color:#E1E2E2;
     height: 40px;
     font-size: xx-large;
     font-family:Blippo, fantasy;
@@ -169,7 +171,7 @@ a:hover{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #3e5966;
+    background-color:#E1E2E2;
     flex-direction: column;
     padding: 40px;
     font-family:Blippo, fantasy;
