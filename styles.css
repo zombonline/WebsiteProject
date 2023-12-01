@@ -211,6 +211,95 @@ a:hover{
 
 /* end of ryans pages */
 
+/* Contact Us page */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container {
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the boxes */
+    padding: 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    color: orange;
+    width: 100%;
+}
+
+.contact-form {
+    box-sizing: border-box;
+    width: calc(100% - 10px); /* Adjusted width to maintain size */
+    margin: 5px 30px; /* Added margin for spacing */
+}
+
+.contact-info {
+    box-sizing: border-box;
+    width: calc(120% - 60px); /* Adjusted width to maintain size */
+    margin: 30px 80px 60px 2px; /* Added margin for spacing */
+}
+
+form {
+    display: grid;
+    gap: 0px;px;
+}
+
+label {
+    font-weight: bold;
+    color:#000
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #e95106;
+    color: #fff;
+    padding: 15px;
+    border:lch(from color l c h)
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #7059b6;
+    
+}
+
+.contact-info {
+    background-color: #fbfbfb;
+    color: #060606;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info label {
+    font-weight: bold;
+    color: #0c0000;
+    display: block;
+    margin-bottom: 8px;
+}
+
 
 /* -------------------------PERSONA 5--------------------------*/
 
