@@ -213,91 +213,103 @@ a:hover{
 
 /* Contact Us page */
 
-body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+.team-page html {
+
+  box-sizing:border-box;
 }
 
-.container {
-    max-width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Center the boxes */
-    padding: 0px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+.team-page body {
+background: rgb(3, 3, 3);
+width:90%;
+max-width: 800px;
+margin:50px auto;
+font-family: Calibri;
+padding:20px;
+}
+.team-page h1, p{
+text-align: center;
+}
+.team-page label{
+display:block;
+margin:1em 0 .2em;
+}
+/* single-line text, checkbox, and button */
+.team-page input, select, textarea{
+display:block;
+width:105%;
+padding:.3em;
+font-family: Calibri;
+font-size:15px;
+color: #090909;
+background-color:#fbfbfb;
+border:solid 1px #CCC;
+resize:vertical;
 }
 
-h1 {
-    text-align: center;
-    color: orange;
-    width: 100%;
+
+.team-page textarea{
+min-height:300px;
+font-family: Calibri;
+font-size: 15px;
+
+}
+.team-page select{
+color:orangered;
+font-size: 15px;
+}
+.team-page option{
+color:orange;
+font-size: 15px;
+background: lavenderBlush;
+
+
+}
+.team-page input[type=checkbox]{
+display:inline;
+width:auto;
+color:red;
 }
 
-.contact-form {
-    box-sizing: border-box;
-    width: calc(100% - 10px); /* Adjusted width to maintain size */
-    margin: 5px 30px; /* Added margin for spacing */
+.team-page input[type=submit]{
+background:orangered;
+font-size: 20px;
+margin:1em 0 0;
+width: 107%;
+color:white;
+border:none;
+border-radius:8px;
+transition:all .3s ease-out;
 }
 
-.contact-info {
-    box-sizing: border-box;
-    width: calc(120% - 60px); /* Adjusted width to maintain size */
-    margin: 30px 80px 60px 2px; /* Added margin for spacing */
+.team-page input:focus,
+input:hover,
+select:focus,
+select:hover,
+textarea:focus,
+textarea:hover{
+background: lavenderBlush;
 }
 
-form {
-    display: grid;
-    gap: 0px;px;
+/* hover and focus states */
+.team-page input[type=submit]:hover,
+input[type=submit]:focus{
+background: rgb(9, 165, 238);
+outline:none;
 }
 
-label {
-    font-weight: bold;
-    color:#000
+@media screen and (min-width:600px) {
+/*  make the form 2 columns */
+form:after{
+  content:'';
+  display:block;
+  clear:both;
 }
-
-input[type="text"],
-input[type="email"],
-textarea {
-    margin-bottom: 10px;
-    width: 100%;
-    padding: 10px;
-    box-sizing: border-box;
+.column{
+  width:90%;
+  padding:1em;
+  float:left;
 }
-
-input[type="submit"] {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    background-color: #e95106;
-    color: #fff;
-    padding: 15px;
-    border:lch(from color l c h)
-    cursor: pointer;
-    font-size: 16px;
-}
-
-input[type="submit"]:hover {
-    background-color: #7059b6;
-    
-}
-
-.contact-info {
-    background-color: #fbfbfb;
-    color: #060606;
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.contact-info label {
-    font-weight: bold;
-    color: #0c0000;
-    display: block;
-    margin-bottom: 8px;
 }
 
 
