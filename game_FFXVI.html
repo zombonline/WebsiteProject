@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+    </script>
+</head>
+<body>
+    <section> <!-- Navbar -->
+        <div id="navbar"></div>
+    </section>
+
+    <div class="FF">
+        <div class="bg">
+            <div class="content">
+                <h2> Final Fantasy XVI</h2>
+                <p>The first fully fledged Action RPG in the mainline Final Fantasy series.
+                     Clive Rosfield is on a mission to free mankind from its fate, 
+                     and must use the Eikonic powers at his disposal to overcome every obstacle his enemies lay before him.</p>
+                <button type="more" class ="btn" onclick="openPopup()">More</button> 
+            </div>
+            <img src="images/FFXVI.png">
+            <div class="popup" id="popup">
+                <div class="dcp-container">
+                    <img src="images/CaraFFXVI.jpg">
+                    <div class = "text">
+                        <h3> Title: </h3>
+                        <p>Final Fantasy XVI</p>
+                    </div>
+                    <div class = "text">
+                        <h3> Genre: </h3>
+                        <p> RPG </p>
+                    </div>
+                    <div class = "text">
+                        <h3> Multiplayer: </h3>
+                        <p> No </p>
+                    </div>
+                    <div class = "text">
+                        <h3> Score: </h3>
+                        <p> 4 <span class="icon"> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>     </span></p>  
+                    </div>
+                    <button type="less" onclick="closePopup()" >Less</button>
+                    
+                </div>
+            </div>    
+            
+        </div>
+    </div>    
+        
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <div class="banner3">
+        <h2>Xperience</h2>
+        <div> </div>
+        <div class = "video3">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/iaJ4VVFGIa8?si=29AHxc3zme1BqoZk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>
+            Final Fantasy has always been defined by its storytelling, and XVI uniquely balances two main influences. On the one hand, you have typical Final Fantasy elements: a clear juxtaposition between good and evil, fantastical creatures like chocobos and moogles, maybe the best iteration of Cid ever, and an especially captivating antagonist. On the other hand, you have a heavy dose of Game of Thrones, which Producer Naoki Yoshida required the development team to watch.
+        </p>
+    </div>
+    
+    <div class="media-scroller media-scroller--with-groups snaps-inline">
+    
+    <!--   Group 1 -->
+    <div class="media-group">
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-197.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-196.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-195.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-194.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-193.jpg>
+        </div>
+    </div>
+    
+    <!-- Group 2   -->
+    <div class="media-group">
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-189.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-180.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-176.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2020/09/Final-Fantasy-XVI-Screenshot-173.jpg>
+        </div>
+        <div class="media-element">
+        <img src=https://www.rpgfan.com/wp-content/uploads/2023/05/Final-Fantasy-XVI-Screenshot-161.jpg>
+        </div>
+    </div>
+      
+              
+
+    </section>
+
+<script>
+let popup = document.getElementById("popup");
+function openPopup(){
+    popup.classList.add("open-popup");
+}
+
+function closePopup(){
+    popup.classList.remove("open-popup");
+}
+</script>    
+</body>
+
+
+</html>

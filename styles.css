@@ -1,6 +1,6 @@
 
 html{color-scheme: dark light;
-    background-image: url('images/site_wall.jpg');
+    background-image: url('images/Sitewall2.png');
     
     
 }
@@ -321,46 +321,47 @@ form:after{
 
 .P5{
     position: relative;
-    width:100%;
+    width:80%;
     padding: 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #090909;
+    
     z-index: 0;
-    padding-top: -70px;
 
 }
 
 .P5 .bg{
     
     position: relative;
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
-
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .P5 .bg .content{
-    padding-left: 50px;
-    width:50%;
+    margin-left: 35%;
+    width:100%;
     height:100%;
     min-width: 200px;
 }
 
 .P5 .bg .content h2{
-    font-size: 3em;
-    color: #fff;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
     letter-spacing: 1px;
-    font-family:Blippo, fantasy;
+    font-family:Blippo, fantasy; 
 }
 
 .P5 .bg .content p{
     font-size: 1em;
     color: #f9f9f9;
     letter-spacing: 1px;
+    font-family:Blippo, fantasy;
+
 }
 
 .P5 .bg .content button{
@@ -384,81 +385,99 @@ form:after{
     
 }
 .P5 .bg img {
-    width:700px;
+    position: relative;
     width:50%;
     margin-top: 5%;
-
 }
-.video1{
-    position: relative;
-    width:100%;
-    padding: 100px 100px;
-    display: flex;
-    justify-content: left;
+
+.banner1{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
     align-items: center;
-    background-color: #090909;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
     z-index: 0;
-    padding-left: 20%;
-    padding-top: -5%;
-  
+    padding-bottom: 100px;
 }
 
+.banner1 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    font-family:Blippo, fantasy;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+}
+.banner1 .video1{
+    justify-self: center;
+    width:100%;
+    padding-left: 200px;
+}
 
+.banner1 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+    
+}
 
     /*-----------POPUP-----------*/
 .popup{
     position: relative;
     border-radius: 6px;
     align-items: center;
-    background-color: #090909;
     z-index: 0;
-    background-color: #f9f9f9;
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
     width:100%;
-    margin-top: 29%;
-
 }
 
 .open-popup{
     visibility: visible;
 }
 
-
 .dcp-container img{
     position: relative;
     margin-top: 28%;
-    margin-left: 3%;
-    box-shadow: rgba(25, 25, 26, 0.749);
+    margin-left: 25%;
     border-radius: 6px;
 }
 
 .dcp-container .text{
     padding-left:10%;
     margin-top: 10px;
-    font-family: 
-    Blippo, fantasy;
+    color: white;
+    gap:0px;
+    font-size: medium;
 }
 .dcp-container{
     position: relative;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
-    background: rgb(255, 0, 0, 1.8);
+    background: transparent;
+    border-radius: 6px;
 }
 
 .popup button{
     background: rgb(255,255,255, 0.5);
     display: inline-block;
     padding: 10px 20px;
-    margin:20px 0;
+    margin: 20px 120px;
     border: 1px solid rgba(75, 187, 228, 0.494);
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
     color: #111111;
     letter-spacing: 1px;
-    margin-bottom: 20%;
+    margin-bottom: 10%;
 }
 
 .popup button:hover{
@@ -468,26 +487,75 @@ form:after{
     box-shadow: #42d7e5;
 }
 
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+
+.media-scroller {
+  --_spacer: var(--size-3);
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+
+  padding: 0 var(--_spacer) var(--_spacer);
+
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
+}
+
+.media-scroller--with-groups {
+  grid-auto-columns: 80%;
+}
+
+.media-group {
+  display: grid;
+  gap: var(--_spacer);
+  grid-auto-flow: column;
+}
+
+.media-element {
+  display: grid;
+  grid-template-rows: min-content;
+  gap: var(--_spacer);
+  padding: var(--_spacer);
+  background: var(--surface-2);
+  border-radius: var(--radius-2);
+  box-shadow: var(--shadow-2);
+}
+
+.media-element > img {
+  inline-size: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.snaps-inline {
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline: var(--_spacer, 1rem);
+}
+
+.snaps-inline > * {
+  scroll-snap-align: start;
+}
+
+
+
 /*---------------------CRASH4----------------------*/
 
 .Crash4{
     position: relative;
-    width:102%;
-    padding: 0px 50px;
+    width:80%;
+    padding: 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #090909;
     z-index: 0;
-    padding-top: -70px;
-
 
 }
 .Crash4 .bg{
     position: relative;
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
-    margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -495,17 +563,18 @@ form:after{
 }
 
 .Crash4 .bg .content{
-    padding-left: 50px;
-    width:50%;
+    margin-left: 32%;
+    width:100%;
     height:100%;
     min-width: 200px;
-    font-family:Blippo, fantasy;
 }
 
 .Crash4 .bg .content h2{
-    font-size: 3em;
-    color: #fff;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
     letter-spacing: 1px;
+    font-family:Blippo, fantasy;    
 }
 
 .Crash4 .bg .content p{
@@ -535,67 +604,99 @@ form:after{
     
 }
 .Crash4 .bg img {
-    width:700px;
-    width:50%;
-    margin-left: 3%;
-    margin-top: 11%;
+
+    position: relative;
+    margin-left: 20px;
+    width:45%;
 }
 
-.video{
-    position: relative;
+.banner2{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+
+.banner2 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    font-family:Blippo, fantasy;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+}
+.banner2 .video2{
+    justify-self: center;
     width:100%;
+    padding-left: 200px;
+}
+
+.banner2 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+    
+}
+
+/* -------------------------FINAL FANTASY--------------------------*/
+
+.FF{
+    position: relative;
+    width:80%;
     padding: 0px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #090909;
+    
     z-index: 0;
-    margin-left: -5%;
+
 }
 
-
-
-
-.popup{
+.FF .bg{
+    
     position: relative;
-    border-radius: 6px;
-    align-items: center;
-    background-color: #090909;
-    z-index: 0;
-    background-color: #f9f9f9;
-    visibility: hidden;
-    transition: transform 0.4s, top 0.4s;
-    width:100%;
-    margin-top:15%;
-
-}
-
-.open-popup{
-    visibility: visible;
-}
-
-.dcp-container{
-    position: relative;
+    width: 100%;
+    min-height: 100vh;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    background: rgba(201, 196, 196, 0.6);
-}
-.dcp-container img{
-    position: relative;
-    margin-top: 28%;
-    padding-left:22%;
-    box-shadow:rgba(62, 89, 102, 5.749);
-    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
 }
 
-.dcp-container .text{
-    padding-left:10%;
-    margin-top: 10px;
+.FF .bg .content{
+    margin-left: 32%;
+    width:100%;
+    height:100%;
+    min-width: 200px;
 }
 
-.popup button{
-    background: rgb(255,255,255, 0.5);
+.FF .bg .content h2{
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
+    letter-spacing: 1px;
+    font-family:Blippo, fantasy; 
+}
+
+.FF .bg .content p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    font-family:Blippo, fantasy;
+
+}
+
+.FF .bg .content button{
+    background: transparent;
     display: inline-block;
     padding: 10px 20px;
     margin:20px 0;
@@ -603,19 +704,61 @@ form:after{
     text-decoration: none;
     font-weight: 700;
     border-radius: 5px;
-    color: #111111;
+    color: #fcf8f8;
     letter-spacing: 1px;
-    margin: 30%;
-    margin-top: 10%;
-    margin-bottom: 10%;
 }
 
-.popup button:hover{
+.FF .bg .content button:hover{
     background: #42d7e5;
     border: none;
     color: #090909;
     box-shadow: #42d7e5;
+    
 }
+.FF .bg img {
+    position: relative;
+    margin-left: 20px;
+    width:45%;
+
+}
+
+.banner3{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+
+.banner3 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    font-family:Blippo, fantasy;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+}
+.banner3 .video3{
+    justify-self: center;
+    width:100%;
+    padding-left: 200px;
+}
+
+.banner3 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+}
+
 
           
             
