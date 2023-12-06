@@ -125,6 +125,9 @@ a:hover{
     margin-left:20%;
     z-index: 100;
     font-family:Blippo, fantasy;
+    border-radius: 6px;
+    
+    
 
 }
 
@@ -133,6 +136,14 @@ a:hover{
     text-wrap:nowrap;
     z-index: 100;
     font-family:Blippo, fantasy;
+    position: relative;
+    margin-bottom: 10%;
+    margin-left: 1%;
+    border-radius: 6px;
+    padding: 10px;
+    width: 300px;
+    height: 300px;
+    
     
 }
 
@@ -180,7 +191,7 @@ a:hover{
     padding: 40px;
     font-family:Blippo, fantasy;
     color: #090909;
-    
+
    
 
 
