@@ -76,6 +76,8 @@ a:hover{
 a:link
 {
     text-decoration: none;
+    color:#FB8122;
+
 }
 
 
@@ -91,7 +93,7 @@ a:visited{
 }
 a:hover{
     text-decoration: none;
-    color:blue;
+    color:rgb(101, 101, 173);
 }
 
 
@@ -148,22 +150,32 @@ a:hover{
 }
 
 .a_z_list{
-    margin-left:35%;
+    margin-top: -5%;
+    margin-left:95%;
     text-align: center;
-    width: 50%;
     position: fixed;
     z-index: 1000;
     text-decoration: #e09160;
-    background-color:#E1E2E2;
-    height: 40px;
-    font-size: xx-large;
+    font-size: 25px;
     font-family:Blippo, fantasy;
     border-radius: 5px;
-
-    
-    
-
+    width: 25px;
+    padding: 8px 8px 8px 8px;
+    background: #E1E2E2;
+    border-width: 1px;
+    border-style: solid;
 }
+
+.rectangle-18 {
+    width: 81px;
+    height: 1372px;
+    padding: 8px 8px 8px 8px;
+    background: #E1E2E2;
+    border-color: #00000000;
+    border-width: 1px;
+    border-style: solid;
+}
+
 
 /* News page */
 
