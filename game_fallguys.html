@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+    $(function(){
+      $("#navbar").load("navbar.html"); 
+    });
+    </script>
+</head>
+<body>
+    <section> <!-- Navbar -->
+        <div id="navbar"></div>
+    </section>
+    <div class="FG">
+        <div class="bg">
+            <div class="content">
+                <h2>Fall  <span class=" fancy"> Guys</span></h2>
+                <p>Fall Guys catapults players into a chaotic obstacle course where jellybean-like characters vie for victory. Navigate hilarious challenges, dodge obstacles, and outmaneuver opponents in a series of madcap mini-games. With its colorful aesthetics and unpredictable gameplay, Fall Guys delivers a lighthearted, competitive multiplayer experience like no other.</p>
+                <button type="more" class ="btn" onclick="openPopup()">More</button>   
+            </div>
+            <img src="https://image.api.playstation.com/vulcan/ap/rnd/202309/2603/55757303c2d99bb14cddca61c21680ae1df5ee936d8ffd6e.png">
+            <div class="popup" id="popup">
+                <div class="dcp-container">
+                    <img src="https://m.media-amazon.com/images/M/MV5BZmMwNWI5ZjMtMzY2YS00MDJhLWI1MjEtZTAwNzljMmNhMTA3XkEyXkFqcGdeQXVyNTgyNTA4MjM@._V1_FMjpg_UX1000_.jpg">
+                    <div class = "text">
+                        <h3> Title: </h3>
+                        <p>Fall Guys</p>
+                    </div>
+                    <div class = "text">
+                        <h3> Genre: </h3>
+                        <p> Platform </p>
+                    </div>
+                    <div class = "text">
+                        <h3> Multiplayer: </h3>
+                        <p> Yes </p>
+                    </div>
+                    <div class = "text">
+                        <h3> Score: </h3>
+                        <p> 4,5 <span class="icon"> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon> <ion-icon name="star"></ion-icon>    <ion-icon name="star-half"></ion-icon> </span></p>
+                        
+                    </div>
+                    <button type="less" onclick="closePopup()" >Less</button>
+                </div>
+            </div>
+        </div>
+        
+       
+    </div>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <div class="banner7">
+        <h2>Xperience</h2>
+        <div> </div>
+        <div class = "video7">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Wj3dUvGLjNQ?si=Adz7Ykm9IlLtTYIY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <p>
+            Dive into fierce competition in Fall Guys. Race, jostle, and outwit rivals in a whimsical battle royale. Only the quickest, cleverest contestant emerges victorious in this hilarious and unpredictable challenge.
+        </p>
+    </div>
+
+    <div class="media-scroller media-scroller--with-groups snaps-inline">
+    
+        <!--   Group 1 -->
+        <div class="media-group">
+            <div class="media-element">
+            <img src=https://cdn2.unrealengine.com/fall-guys-2022-04-12---14-22-40-01-mp4-00-00-27-14-still004-3840x2160-42e5cc1a2297.png>
+            </div>
+            <div class="media-element">
+            <img src=https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2020/08/07/bb59b349/fall_guys_5.jpg>
+            </div>
+            <div class="media-element">
+            <img src=https://imageio.forbes.com/specials-images/imageserve/5f2ab806de7463762fe43d0b/Fall-Guys/960x0.jpg?format=jpg&width=960>
+            </div>
+            <div class="media-element">
+            <img src=https://ftw.usatoday.com/wp-content/uploads/sites/90/2022/05/fall-guys-free.png?w=1000&h=600&crop=1>
+            </div>
+            <div class="media-element">
+            <img src=https://cdn.mos.cms.futurecdn.net/UPEbMv9nTHkUnnVA5or8UZ.png>
+            </div>
+        </div>
+        
+        <!-- Group 2   -->
+        <div class="media-group">
+            <div class="media-element">
+            <img src=https://images.pushsquare.com/5b5af9977a004/1280x720.jpg>
+            </div>
+            <div class="media-element">
+            <img src=https://superduperstuff.co.uk/wp-content/uploads/2020/08/Fall-Guys.jpg>
+            </div>
+            <div class="media-element">
+            <img src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfH0Hv6Rj1pPhGsM2Ma0-zBj0gSyVOfJpVVw&usqp=CAU>
+            </div>
+            <div class="media-element">
+            <img src=https://assetsio.reedpopcdn.com/Fall_Guys_social.jpeg?width=1200&height=900&fit=crop&quality=100&format=png&enable=upscale&auto=webp>
+            </div>
+            <div class="media-element">
+            <img src=https://cdn.mos.cms.futurecdn.net/5ppcynCGHrUwu2yFtz9noM.jpg>
+            </div>
+        </div>
+
+    
+
+     
+
+    </section>
+
+<script>
+let popup = document.getElementById("popup");
+function openPopup(){
+popup.classList.add("open-popup");
+}
+
+function closePopup(){
+popup.classList.remove("open-popup");
+}
+</script>

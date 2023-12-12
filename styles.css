@@ -942,7 +942,407 @@ h2 .fancy {
     
 }
 
+/* SuperMario */
+
+.SM {
+    position: relative;
+    width:80%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+}
+
+.SM .bg{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.SM .bg .content{
+    width:100%;
+    height:100%;
+    min-width: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+.SM .bg .content h2{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 1;
+    align-self: flex-start;
+}
+
+h2 .fancy {
+    position: relative;
+    white-space: nowrap;
+    &:after {
+      --deco-height: 0.3125em;
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: calc(var(--deco-height) * -0.625);
+      height: var(--deco-height);
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+      background-size: auto 100%;
+      background-repeat: round;
+      background-position: 0em;
+    }
+  }
+
+.SM .bg .content p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    
+
+}
+
+.SM .bg .content button{
+    background: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    margin:20px 0;
+    border: 1px solid rgba(75, 187, 228, 0.494);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fcf8f8;
+    letter-spacing: 1px;
+    margin-left: 60px;
+   
+
+}
+
+.SM .bg .content button:hover{
+    background: #42d7e5;
+    border: none;
+    color: #090909;
+    box-shadow: #42d7e5;
+    
+}
+.SM .bg img {
+    position: relative;
+    width:50%;
+    margin-top: 45px;
+}
+
+.banner5{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+
+.banner5 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+    
+}
+
+.banner5 .video5{
+    justify-self: center;
+    width:100%;
+    padding-left: 200px;
+}
+
+.banner5 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+    
+}
           
+/* COD */
+
+.COD{
+    position: relative;
+    width:80%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+}
+
+.COD .bg{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.COD .bg .content{
+    width:100%;
+    height:100%;
+    min-width: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+.COD .bg .content h2{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 1;
+    align-self: flex-start;
+}
+
+h2 .fancy {
+    position: relative;
+    white-space: nowrap;
+    &:after {
+      --deco-height: 0.3125em;
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: calc(var(--deco-height) * -0.625);
+      height: var(--deco-height);
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+      background-size: auto 100%;
+      background-repeat: round;
+      background-position: 0em;
+    }
+  }
+
+.COD .bg .content p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    
+
+}
+
+.COD .bg .content button{
+    background: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    margin:20px 0;
+    border: 1px solid rgba(75, 187, 228, 0.494);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fcf8f8;
+    letter-spacing: 1px;
+    margin-left: 60px;
+   
+
+}
+
+.COD .bg .content button:hover{
+    background: #42d7e5;
+    border: none;
+    color: #090909;
+    box-shadow: #42d7e5;
+    
+}
+.COD .bg img {
+    position: relative;
+    width:50%;
+    margin-top: 45px;
+}
+
+.banner6{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+
+.banner6 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+    
+}
+
+.banner6 .video6{
+    justify-self: center;
+    width:100%;
+    padding-left: 200px;
+}
+
+.banner6 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+    
+}
+
+/* Fall Guys */
+
+.FG{
+    position: relative;
+    width:80%;
+    padding: 0px 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+
+}
+
+.FG .bg{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.FG .bg .content{
+    width:100%;
+    height:100%;
+    min-width: 200px;
+    justify-content: center;
+    align-items: flex-start;
+    margin-left: 350px;
+}
+
+.FG .bg .content h2{
+    color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 3vw;
+    text-transform: uppercase;
+    line-height: 1;
+    align-self: flex-start;
+}
+
+h2 .fancy {
+    position: relative;
+    white-space: nowrap;
+    &:after {
+      --deco-height: 0.3125em;
+      content: "";
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: calc(var(--deco-height) * -0.625);
+      height: var(--deco-height);
+      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+      background-size: auto 100%;
+      background-repeat: round;
+      background-position: 0em;
+    }
+  }
+
+.FG .bg .content p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    
+
+}
+
+.FG .bg .content button{
+    background: transparent;
+    display: inline-block;
+    padding: 10px 20px;
+    margin:20px 0;
+    border: 1px solid rgba(75, 187, 228, 0.494);
+    text-decoration: none;
+    font-weight: 700;
+    border-radius: 5px;
+    color: #fcf8f8;
+    letter-spacing: 1px;
+    margin-left: 60px;
+   
+
+}
+
+.FG .bg .content button:hover{
+    background: #42d7e5;
+    border: none;
+    color: #090909;
+    box-shadow: #42d7e5;
+    
+}
+.FG .bg img {
+    position: relative;
+    width:50%;
+    margin-top: 45px;
+}
+
+.banner7{
+    width: 80%;
+    margin-left: 200px;
+    min-height: 10vh;
+    display: grid;
+    align-items: center;
+    justify-content:start;
+    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-rows: 50px, 105px;
+    gap:10px;
+    z-index: 0;
+    padding-bottom: 100px;
+}
+
+.banner7 h2{
+    position:relative;
+    justify-self: center;
+    font-size: 2.5em;
+    color: rgb(217, 213, 213);
+    letter-spacing: 1px;
+    text-shadow: 0 0 16px rgb(1, 1, 1);
+    
+}
+
+.banner7 .video7{
+    justify-self: center;
+    width:100%;
+    padding-left: 200px;
+}
+
+.banner7 p{
+    font-size: 1em;
+    color: #f9f9f9;
+    letter-spacing: 1px;
+    justify-self: stretch;
+    max-height: 200px;
+    
+}
             
             
 
