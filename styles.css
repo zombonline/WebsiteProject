@@ -366,40 +366,18 @@ form:after{
 }
 
 .P5 .bg .content{
+    margin-left: 35%;
     width:100%;
     height:100%;
     min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 350px;
 }
 
 .P5 .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    line-height: 1;
-    align-self: flex-start;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
+    letter-spacing: 1px; 
 }
-
-h2 .fancy {
-    position: relative;
-    white-space: nowrap;
-    &:after {
-      --deco-height: 0.3125em;
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: calc(var(--deco-height) * -0.625);
-      height: var(--deco-height);
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-      background-size: auto 100%;
-      background-repeat: round;
-      background-position: 0em;
-    }
-  }
 
 .P5 .bg .content p{
     font-size: 1em;
@@ -420,9 +398,6 @@ h2 .fancy {
     border-radius: 5px;
     color: #fcf8f8;
     letter-spacing: 1px;
-    margin-left: 60px;
-   
-
 }
 
 .P5 .bg .content button:hover{
@@ -435,7 +410,7 @@ h2 .fancy {
 .P5 .bg img {
     position: relative;
     width:50%;
-    margin-top: 45px;
+    margin-top: 5%;
 }
 
 .banner1{
@@ -459,9 +434,7 @@ h2 .fancy {
     color: rgb(217, 213, 213);
     letter-spacing: 1px;
     text-shadow: 0 0 16px rgb(1, 1, 1);
-    
 }
-
 .banner1 .video1{
     justify-self: center;
     width:100%;
@@ -486,8 +459,6 @@ h2 .fancy {
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
     width:100%;
- 
-    
 }
 
 .open-popup{
@@ -499,17 +470,14 @@ h2 .fancy {
     margin-top: 28%;
     margin-left: 25%;
     border-radius: 6px;
-    width: 100px;
 }
 
 .dcp-container .text{
-    width: 80%;
     padding-left:10%;
     margin-top: 10px;
     color: white;
     gap:0px;
-    font-size: small;
-    align-self: center;
+    font-size: medium;
 }
 .dcp-container{
     position: relative;
@@ -518,15 +486,13 @@ h2 .fancy {
     flex-direction: column;
     background: transparent;
     border-radius: 6px;
-    gap:1px;
-    align-items:center
 }
 
 .popup button{
     background: rgb(255,255,255, 0.5);
     display: inline-block;
     padding: 10px 20px;
-    margin: 10px 100px;
+    margin: 20px 120px;
     border: 1px solid rgba(75, 187, 228, 0.494);
     text-decoration: none;
     font-weight: 700;
@@ -534,7 +500,6 @@ h2 .fancy {
     color: #111111;
     letter-spacing: 1px;
     margin-bottom: 10%;
-    justify-self: center;
 }
 
 .popup button:hover{
@@ -620,29 +585,23 @@ h2 .fancy {
 }
 
 .Crash4 .bg .content{
-    margin-left: 6%;
+    margin-left: 32%;
     width:100%;
     height:100%;
     min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left:350px;
 }
 
 .Crash4 .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    align-self: flex-start;
-    line-height: 1;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
+    letter-spacing: 1px;   
 }
 
 .Crash4 .bg .content p{
     font-size: 1em;
     color: #f9f9f9;
     letter-spacing: 1px;
-    
 }
 
 .Crash4 .bg .content button{
@@ -656,7 +615,6 @@ h2 .fancy {
     border-radius: 5px;
     color: #fcf8f8;
     letter-spacing: 1px;
-    margin-left: 60px;
 }
 
 .Crash4 .bg .content button:hover{
@@ -669,10 +627,8 @@ h2 .fancy {
 .Crash4 .bg img {
 
     position: relative;
+    margin-left: 20px;
     width:45%;
-    margin-left: 100px;
-    margin-top: 85px;
-    
 }
 
 .banner2{
@@ -716,7 +672,7 @@ h2 .fancy {
 
 .FF{
     position: relative;
-    width:100%;
+    width:80%;
     padding: 0px 100px;
     display: flex;
     justify-content: center;
@@ -729,7 +685,7 @@ h2 .fancy {
 .FF .bg{
     
     position: relative;
-    width: 80%;
+    width: 100%;
     min-height: 100vh;
     display: flex;
     justify-content: center;
@@ -737,20 +693,17 @@ h2 .fancy {
 }
 
 .FF .bg .content{
-    margin-left: 6%;
+    margin-left: 32%;
     width:100%;
     height:100%;
     min-width: 200px;
-    justify-self: center;
 }
 
 .FF .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
+    font-size: 3.5em;
+    color: rgb(0, 0, 0);
+    text-shadow: 0 0 26px white;
+    letter-spacing: 1px;
 }
 
 .FF .bg .content p{
@@ -771,7 +724,6 @@ h2 .fancy {
     border-radius: 5px;
     color: #fcf8f8;
     letter-spacing: 1px;
-    margin-left: 60px;
 }
 
 .FF .bg .content button:hover{
@@ -783,9 +735,8 @@ h2 .fancy {
 }
 .FF .bg img {
     position: relative;
-    margin-left: 100px;
-    margin-top:45px ;
-    width:40%;
+    margin-left: 20px;
+    width:45%;
 
 }
 
@@ -826,6 +777,11 @@ h2 .fancy {
 }
 
 
+<<<<<<< Updated upstream
+          
+            
+            
+=======
 
 .FM{
     position: relative;
@@ -942,10 +898,267 @@ h2 .fancy {
     
 }
 
-          
-            
-            
+/*----Login----*/
+
+
+.body-login {
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/lightblue.png);
+    min-height: 100vh;
+    padding-left: 10%;
+}
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-left: 20%;
+}
+
+.icons {
+    width: 100%;
+    text-align: center;
+    padding: 30px;
+    color: #fff;
+    margin: 100px 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
+
+.navigation {
+    margin: 100px auto;
+    width: 70%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+}
+
+.navigation .text .Slogan p {
+    font-size: 18px;
+    font-weight: 100;
+    color: transparent;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+    flex-direction: column;
+    max-width: 600px;
+    
+}
+.navigation:hover .Slogan p{
+    color: #fff;
+}
+
+
+    .navigation:hover {
+        box-shadow: 0 0 20px 0px rgb(255, 255, 255);
+    }
+
+    .navigation .btnLogin-popup {
+        width: 130px;
+        height: 50px;
+        background: transparent;
+        border: 2px solid #fff;
+        outline: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-size: 1.4em;
+        color: black;
+        font-weight: 500;
+        margin-bottom: 30px;
+        transition: .5s;
+    }
+
+        .navigation .btnLogin-popup:hover {
+            background: #cedad9;
+            background-color: rgb(187, 0, 0, 0.15);
+            color: #162938;
+        }
+
+.text p {
+    color: rgba(4,9,30,0.7);
+    font-size: 20px;
+   
+}
+>>>>>>> Stashed changes
 
 
 
+.wrapper {
+    position: relative;
+    width: 400px;
+    height: 440px;
+    background-color: aliceblue;
+    border: 2px solid rgba(255,255,255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    transform: scale(0);
+    margin: auto;
+    transition: transform .5s ease, height .2s ease;
+}
 
+    .wrapper.active-popup {
+        transform: scale(1);
+    }
+
+    .wrapper.active {
+        height: 520px;
+    }
+
+
+    .wrapper .form-box {
+        width: 100%;
+        padding: 40px;
+    }
+
+        .wrapper .form-box.login {
+            transition: transform .18s ease;
+            transform: translateX(0);
+        }
+
+    .wrapper.active .form-box.login {
+        transition: none;
+        transform: translateX(-400px);
+    }
+
+    .wrapper .form-box.register {
+        position: absolute;
+        transition: none;
+        transform: translateX(400px);
+    }
+
+    .wrapper.active .form-box.register {
+        transition: transform .18s ease;
+        transform: translateX(0);
+    }
+
+    .wrapper .icon-close {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 45px;
+        height: 45px;
+        background: #162938;
+        font-size: 2em;
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-bottom-left-radius: 20px;
+        cursor: pointer;
+        z-index: 1;
+    }
+
+.form-box h2 {
+    font-size: 2em;
+    color: #162938;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid #162938;
+    margin: 30px 0;
+}
+
+    .input-box label {
+        position: absolute;
+        top: 50%;
+        left: 5px;
+        transform: translateY(-50%);
+        font-size: 1em;
+        color: #162938;
+        font-weight: 500;
+        pointer-events: none;
+        transition: .5s;
+    }
+
+    .input-box input:focus ~ label,
+    .input-box input:valid ~ label {
+        top: -5px;
+    }
+
+    .input-box input {
+        width: 100%;
+        height: 100%;
+        background: transparent;
+        border: none;
+        outline: none;
+        font-size: 1em;
+        color: #162938;
+        font-weight: 600;
+        padding: 0 35px 0 5px;
+    }
+
+    .input-box .icon {
+        position: absolute;
+        right: 8px;
+        font-size: 1.2em;
+        color: #162938;
+        line-height: 57px;
+    }
+
+.remember-forgot {
+    font-size: .9em;
+    color: #162938;
+    font-weight: 500;
+    margin: -15px 0 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+    .remember-forgot label input {
+        accent-color: #162938;
+        margin-right: 3px;
+    }
+
+    .remember-forgot a {
+        color: #162938;
+        text-decoration: none;
+    }
+
+        .remember-forgot a:hover {
+            text-decoration: underline;
+        }
+
+.btn {
+    width: 100%;
+    height: 45px;
+    background: #162938;
+    border: none;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1em;
+    color: #fff;
+    font-weight: 500;
+}
+
+.login-register {
+    font-size: .9em;
+    color: #162938;
+    text-align: center;
+    font-weight: 500;
+    margin: 25px 0 10px;
+}
+
+    .login-register p a {
+        color: #162938;
+        text-decoration: none;
+        font-weight: 600;
+    }
+
+        .login-register p a:hover {
+            text-decoration: underline;
+        }
