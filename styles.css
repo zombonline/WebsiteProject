@@ -366,15 +366,18 @@ form:after{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 .P5 .bg .content{
     width:100%;
     height:100%;
     min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 350px;
+    justify-content: space-evenly;
+    justify-self: center;
+    align-items: center;
+    margin-left: 310px;
+  
 }
 
 .P5 .bg .content h2{
@@ -423,9 +426,6 @@ h2 .fancy {
     border-radius: 5px;
     color: #fcf8f8;
     letter-spacing: 1px;
-    margin-left: 60px;
-   
-
 }
 
 .P5 .bg .content button:hover{
@@ -439,6 +439,9 @@ h2 .fancy {
     position: relative;
     width:50%;
     margin-top: 45px;
+    margin-left: 50px;
+    max-height: 500px;
+    
 }
 
 .banner1{
@@ -447,7 +450,7 @@ h2 .fancy {
     min-height: 10vh;
     display: grid;
     align-items: center;
-    justify-content:start;
+    justify-content:center;
     grid-template-columns: repeat(2, 1fr) ;
     grid-template-rows: 50px, 105px;
     gap:10px;
@@ -465,6 +468,7 @@ h2 .fancy {
     
 }
 
+
 .banner1 .video1{
     justify-self: center;
     width:100%;
@@ -475,8 +479,10 @@ h2 .fancy {
     font-size: 1em;
     color: #f9f9f9;
     letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+
     
 }
 
@@ -489,8 +495,8 @@ h2 .fancy {
     visibility: hidden;
     transition: transform 0.4s, top 0.4s;
     width:100%;
- 
-    
+    justify-content: center;
+    align-content: center;   
 }
 
 .open-popup{
@@ -498,16 +504,17 @@ h2 .fancy {
 }
 
 .dcp-container img{
-    position: relative;
     margin-top: 28%;
-    margin-left: 25%;
     border-radius: 6px;
     width: 100px;
+    align-self: center;
+    align-items: center;
+    justify-self: center;
+    margin-right: 50px;
 }
 
 .dcp-container .text{
-    width: 80%;
-    padding-left:10%;
+    width: 100%;
     margin-top: 10px;
     color: white;
     gap:0px;
@@ -517,12 +524,13 @@ h2 .fancy {
 .dcp-container{
     position: relative;
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-content: center;
     flex-direction: column;
     background: transparent;
     border-radius: 6px;
     gap:1px;
-    align-items:center
+    align-items:center;
 }
 
 .popup button{
@@ -538,6 +546,7 @@ h2 .fancy {
     letter-spacing: 1px;
     margin-bottom: 10%;
     justify-self: center;
+    text-align: center;
 }
 
 .popup button:hover{
@@ -546,6 +555,10 @@ h2 .fancy {
     color: #090909;
     box-shadow: #42d7e5;
 }
+
+
+    /*--------MEDIA SCROLLER-------*/
+
 
 @import "https://unpkg.com/open-props";
 @import "https://unpkg.com/open-props/normalize.min.css";
@@ -602,753 +615,125 @@ h2 .fancy {
 
 /*---------------------CRASH4----------------------*/
 
-.Crash4{
-    position: relative;
-    width:80%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-
-}
-.Crash4 .bg{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-}
-
-.Crash4 .bg .content{
-    margin-left: 6%;
-    width:100%;
-    height:100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left:350px;
-}
-
-.Crash4 .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    align-self: flex-start;
-    line-height: 1;
-}
-
-.Crash4 .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    
-}
-
-.Crash4 .bg .content button{
-    background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-}
-
-.Crash4 .bg .content button:hover{
-    background: #42d7e5;
-    border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
-    
-}
-.Crash4 .bg img {
-
-    position: relative;
-    width:45%;
-    margin-left: 100px;
-    margin-top: 85px;
-    
-}
-
-.banner2{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner2 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-}
-.banner2 .video2{
-    justify-self: center;
-    width:100%;
-    padding-left: 200px;
-}
-
-.banner2 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-    
-}
-
 /* -------------------------FINAL FANTASY--------------------------*/
 
-.FF{
-    position: relative;
-    width:100%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    z-index: 0;
-
-}
-
-.FF .bg{
-    
-    position: relative;
-    width: 80%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.FF .bg .content{
-    margin-left: 6%;
-    width:100%;
-    height:100%;
-    min-width: 200px;
-    justify-self: center;
-}
-
-.FF .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-}
-
-.FF .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-
-}
-
-.FF .bg .content button{
-    background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-}
-
-.FF .bg .content button:hover{
-    background: #42d7e5;
-    border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
-    
-}
-.FF .bg img {
-    position: relative;
-    margin-left: 100px;
-    margin-top:45px ;
-    width:40%;
-
-}
-
-.banner3{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner3 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-}
-.banner3 .video3{
-    justify-self: center;
-    width:100%;
-    padding-left: 200px;
-}
-
-.banner3 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-}
-
-
-
-.FM{
-    position: relative;
-    width:80%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-
-}
-
-.FM .bg{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.FM .bg .content{
-    margin-left: 30%;
-    width:100%;
-    height:100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-
-}
-
-
-
-
-.FM .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    text-align: center;
-    line-height: 1;
-}
-
-.FM .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    
-}
-
-.FM .bg .content button{
-    background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-}
-
-.FM .bg .content button:hover{
-    background: #42d7e5;
-    border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
-    
-}
-.FM .bg img{
-    position: relative;
-    width:50%;
-    margin-top: 5%;
-    margin-left: 50px;
-    
-}
-
-.banner4{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner4 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-}
-.banner4 .video4{
-    justify-self: center;
-    width:100%;
-    padding-left: 200px;
-}
-
-.banner4 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-    
-}
-
 /* SuperMario */
-
-.SM {
-    position: relative;
-    width:80%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-
-}
-
-.SM .bg{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.SM .bg .content{
-    width:100%;
-    height:100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 350px;
-}
-
-.SM .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    line-height: 1;
-    align-self: flex-start;
-}
-
-h2 .fancy {
-    position: relative;
-    white-space: nowrap;
-    &:after {
-      --deco-height: 0.3125em;
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: calc(var(--deco-height) * -0.625);
-      height: var(--deco-height);
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-      background-size: auto 100%;
-      background-repeat: round;
-      background-position: 0em;
-    }
-  }
-
-.SM .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    
-
-}
-
-.SM .bg .content button{
-    background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-   
-
-}
-
-.SM .bg .content button:hover{
-    background: #42d7e5;
-    border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
-    
-}
-.SM .bg img {
-    position: relative;
-    width:50%;
-    margin-top: 45px;
-}
-
-.banner5{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner5 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-    
-}
-
-.banner5 .video5{
-    justify-self: center;
-    width:100%;
-    padding-left: 200px;
-}
-
-.banner5 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-    
-}
-          
+  
+        
 /* COD */
 
-.COD{
-    position: relative;
-    width:80%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
-
-}
-
-.COD .bg{
-    position: relative;
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.COD .bg .content{
-    width:100%;
-    height:100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 350px;
-}
-
-.COD .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    line-height: 1;
-    align-self: flex-start;
-}
-
-h2 .fancy {
-    position: relative;
-    white-space: nowrap;
-    &:after {
-      --deco-height: 0.3125em;
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: calc(var(--deco-height) * -0.625);
-      height: var(--deco-height);
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-      background-size: auto 100%;
-      background-repeat: round;
-      background-position: 0em;
-    }
-  }
-
-.COD .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    
-
-}
-
-.COD .bg .content button{
-    background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-   
-
-}
-
-.COD .bg .content button:hover{
-    background: #42d7e5;
-    border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
-    
-}
-.COD .bg img {
-    position: relative;
-    width:50%;
-    margin-top: 45px;
-}
-
-.banner6{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner6 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-    
-}
-
-.banner6 .video6{
-    justify-self: center;
-    width:100%;
-    padding-left: 200px;
-}
-
-.banner6 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-    
-}
 
 /* Fall Guys */
 
-.FG{
-    position: relative;
-    width:80%;
-    padding: 0px 100px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 0;
 
-}
+          
 
-.FG .bg{
-    position: relative;
-    width: 100%;
+/*-------LOGIN-------*/
+
+.bodylogin {
+
     min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 10%;
+
+}
+.wrapper {
+    width: 420px;
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px 40px;
+    background: transparent;
+    border: 2px  solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(5px);
+
 }
 
-.FG .bg .content{
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
+.wrapper .input-box{
+    position:relative;
+    width:100%;
+    height: 50px;
+    margin: 30px 0;
+}
+
+.input-box input{
     width:100%;
     height:100%;
-    min-width: 200px;
-    justify-content: center;
-    align-items: flex-start;
-    margin-left: 350px;
-}
-
-.FG .bg .content h2{
-    color: #fff;
-    font-family: 'Work Sans', sans-serif;
-    font-size: 3vw;
-    text-transform: uppercase;
-    line-height: 1;
-    align-self: flex-start;
-}
-
-h2 .fancy {
-    position: relative;
-    white-space: nowrap;
-    &:after {
-      --deco-height: 0.3125em;
-      content: "";
-      position: absolute;
-      left: 0;
-      right: 0;
-      bottom: calc(var(--deco-height) * -0.625);
-      height: var(--deco-height);
-      background-image: url("data:image/svg+xml,%3Csvg width='100' height='64' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23a)'%3E%3Cpath d='M-17 30.5C-1 22 72-4 54 13 37.9 28.2-2.5 57.5 16 55.5s72-29 104-40' stroke='%2300FDCF' stroke-width='10'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='a'%3E%3Cpath fill='%23fff' d='M0 0h100v64H0z'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
-      background-size: auto 100%;
-      background-repeat: round;
-      background-position: 0em;
-    }
-  }
-
-.FG .bg .content p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    
-
-}
-
-.FG .bg .content button{
     background: transparent;
-    display: inline-block;
-    padding: 10px 20px;
-    margin:20px 0;
-    border: 1px solid rgba(75, 187, 228, 0.494);
-    text-decoration: none;
-    font-weight: 700;
-    border-radius: 5px;
-    color: #fcf8f8;
-    letter-spacing: 1px;
-    margin-left: 60px;
-   
-
-}
-
-.FG .bg .content button:hover{
-    background: #42d7e5;
     border: none;
-    color: #090909;
-    box-shadow: #42d7e5;
+    outline: none;
+    border:2px solid;
+    border-radius: 40px ;
+    font-size:16px;
+    color:#fff;
+    padding: 30px 45px 20px 20x;
+}
+
+.input-box input::placeholder{
+    color: #fff;
+}
+
+.input-box i{
+    position:absolute;
+    right:20px;
+    top:50%;
+    transform: translateY((-50%));
+    font-size: 20px;
+}
+
+.wrapper .remember-forgot{
+    display:flex;
+    justify-content: space-between;
+    font-size: 14.5px;
+    margin: -15px 0 15px;
+}
+
+.remember-forgot label input{
+    accent-color: #fff;
+    margin-right: 3px;
     
 }
-.FG .bg img {
-    position: relative;
-    width:50%;
-    margin-top: 45px;
+.remember-forgot a{
+    color:#fff;
+    text-decoration: none;
+}
+.remember-forgot a:hover{
+    text-decoration: underline;
+
 }
 
-.banner7{
-    width: 80%;
-    margin-left: 200px;
-    min-height: 10vh;
-    display: grid;
-    align-items: center;
-    justify-content:start;
-    grid-template-columns: repeat(2, 1fr) ;
-    grid-template-rows: 50px, 105px;
-    gap:10px;
-    z-index: 0;
-    padding-bottom: 100px;
-}
-
-.banner7 h2{
-    position:relative;
-    justify-self: center;
-    font-size: 2.5em;
-    color: rgb(217, 213, 213);
-    letter-spacing: 1px;
-    text-shadow: 0 0 16px rgb(1, 1, 1);
-    
-}
-
-.banner7 .video7{
-    justify-self: center;
+.wrapper .btnlogin{
     width:100%;
-    padding-left: 200px;
+    height:45px;
+    background: #fff;
+    border:none;
+    outline:none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    cursor:pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
 }
 
-.banner7 p{
-    font-size: 1em;
-    color: #f9f9f9;
-    letter-spacing: 1px;
-    justify-self: stretch;
-    max-height: 200px;
-    
+.wrapper .register-link{
+    font-size: 14.5px;
+    text-align: center;
+    margin:20px 0 15px;
+
 }
-            
-            
 
+.register-link p a{
+    color:#fff;
+    text-decoration:none;
+    font-weight: 600;
+}
 
-
-
+.register-link p a:hover{
+    text-decoration: underline;
+}
