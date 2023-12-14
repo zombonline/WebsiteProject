@@ -232,12 +232,15 @@ a:hover{
 }
 
 .news_art{
-    margin-left:20%;
-    position: absolute;
-    text-decoration: #e09160;
-    font-size: xx-large;
-    top: 120%;
-    line-height: 100%;
+    color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    text-align: left;
+    margin-left: 30%;
+    margin-top: 30%;
+    font-size: large;
 }
 
 .art_header{
